@@ -6,7 +6,7 @@
   "repository": "https://github.com/cooliojazz/atom-language-yolol",
   "license": "ISC",
   "dependencies": {
-    "tree-sitter-yolol": "^0.0.2"
+    "tree-sitter-yolol": "^0.0.4"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

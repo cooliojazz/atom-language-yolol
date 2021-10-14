@@ -4,5 +4,5 @@ c*=:a + :b
 if :a == 1 or (c-1) <= :b then d = 1 else d = 0 end
 e = NOT -:b f=2+(a*8)
 g=sin :b
-g=++:a-- s="asdasda"
+g=++:a-- s="asd" + "asda"
 goto 1

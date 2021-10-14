@@ -197,7 +197,7 @@
     },
     "pre_unary_operator": {
       "type": "PATTERN",
-      "value": "[-!]|\\+\\+|--|[Aa][Bb][Ss]|[Nn][Oo][Tt]|[Ss][Qq][Rr][Tt]|[Ss][Ii][Nn]|[Cc][Oo][Ss]|[Tt][Aa][Nn]|[Aa][Ss][Ii][Nn]|[Aa][Cc][Oo][Ss]|[Aa][Tt][Aa][Nn]"
+      "value": "-|\\+\\+|--|[Aa][Bb][Ss]|[Nn][Oo][Tt]|[Ss][Qq][Rr][Tt]|[Ss][Ii][Nn]|[Cc][Oo][Ss]|[Tt][Aa][Nn]|[Aa][Ss][Ii][Nn]|[Aa][Cc][Oo][Ss]|[Aa][Tt][Aa][Nn]"
     },
     "post_unary_operation": {
       "type": "PREC_LEFT",
@@ -268,7 +268,7 @@
     },
     "string": {
       "type": "PATTERN",
-      "value": "\".+\""
+      "value": "\"([^\"]|\\\\\")*\""
     },
     "number": {
       "type": "PATTERN",

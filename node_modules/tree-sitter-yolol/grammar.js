@@ -14,6 +14,7 @@ module.exports = grammar({
 
         expression: $ => choice(choice($.unary_operation, $.binary_operation, $.string, $.number, $.variable, $.field), seq('(', $.expression, ')')),
 
+        // #Still need to fix OOO#
         unary_operation: $ => choice($.pre_unary_operation, $.post_unary_operation),
         pre_unary_operation: $ => prec.left(seq($.pre_unary_operator, $.expression)),
         pre_unary_operator: $ => /-|\+\+|--|[Aa][Bb][Ss]|[Nn][Oo][Tt]|[Ss][Qq][Rr][Tt]|[Ss][Ii][Nn]|[Cc][Oo][Ss]|[Tt][Aa][Nn]|[Aa][Ss][Ii][Nn]|[Aa][Cc][Oo][Ss]|[Aa][Tt][Aa][Nn]/,
@@ -29,7 +30,7 @@ module.exports = grammar({
         field: $ => seq(':', $.identifier),
 
         // Literals
-        string: $ => /".+"/,
+        string: $ => /"([^"]|\\")*"/,
         number: $ => /\d+(?:\.\d{0,3})?/,
     }
 });

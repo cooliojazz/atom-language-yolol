@@ -8,6 +8,14 @@ fileTypes: [
 scopes:
   'program': 'source.yolol'
 
+  '''
+  "if",
+  "then",
+  "else",
+  "end",
+  "goto"
+  ''': 'keyword.control'
+
   'identifier': 'identifier'
   'number': 'constant.numeric'
   'string': 'string.quoted'

@@ -1,0 +1,13 @@
+{
+  "name": "language-yolol",
+  "version": "0.0.1",
+  "description": "An Atom parser for YOLOL",
+  "author": "cooliojazz",
+  "license": "ISC",
+  "dependencies": {
+    "tree-sitter-yolol": "^0.0.2"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

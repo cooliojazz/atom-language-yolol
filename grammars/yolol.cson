@@ -1,0 +1,9 @@
+name: 'YOLOL'
+scopeName: 'yolol'
+type: 'tree-sitter'
+parser: 'tree-sitter-yolol'
+fileTypes: ['.yolol']
+scopes:
+  'identifier': 'identifier'
+  'number': 'constant.numeric'
+  'string': 'string.quoted'

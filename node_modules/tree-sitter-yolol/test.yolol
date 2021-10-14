@@ -1,0 +1,7 @@
+:a=4/-3
+:b = 12-45
+c=:a + :b
+if :a or c then d = 1 else d = 0 end
+e = NOT -:b f=2+(a*8)
+g=++:a--
+goto 1

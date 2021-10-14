@@ -16,6 +16,54 @@ scopes:
   "goto"
   ''': 'keyword.control'
 
+  '''
+  "==",
+  "+=",
+  "-=",
+  "*=",
+  "/=",
+  "%=",
+  "^=",
+  ''': 'keyword.operator.assignment'
+
+  '''
+  "==",
+  "!=",
+  "<=",
+  ">=",
+  ">",
+  "<"
+  ''': 'keyword.operator.comparison'
+
+  '''
+  "not",
+  "and",
+  "or"
+  ''': 'keyword.operator.logical'
+
+  '''
+  "+",
+  "-",
+  "*",
+  "/",
+  "%",
+  "^",
+  "++",
+  "--",
+  "!",
+  "abs",
+  "sqrt",
+  "cos",
+  "sin",
+  "tan",
+  "acos",
+  "asin",
+  "atan"
+  ''': 'keyword.operator.arithmetic'
+
+  'field': 'entity.name'
+  'variable': 'variable'
   'identifier': 'identifier'
+
   'number': 'constant.numeric'
   'string': 'string.quoted'

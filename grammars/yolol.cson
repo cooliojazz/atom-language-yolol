@@ -61,7 +61,7 @@ scopes:
   "atan"
   ''': 'keyword.operator.arithmetic'
 
-  'field': 'entity.name'
+  'field': 'entity.name.type'
   'variable': 'variable'
   'identifier': 'identifier'
 

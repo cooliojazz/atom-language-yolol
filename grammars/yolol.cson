@@ -1,9 +1,13 @@
-name: 'YOLOL'
-scopeName: 'yolol'
+name: 'YOLOL Script'
+scopeName: 'source.yolol'
 type: 'tree-sitter'
 parser: 'tree-sitter-yolol'
-fileTypes: ['.yolol']
+fileTypes: [
+  'yolol'
+]
 scopes:
+  'program': 'source.yolol'
+
   'identifier': 'identifier'
   'number': 'constant.numeric'
   'string': 'string.quoted'

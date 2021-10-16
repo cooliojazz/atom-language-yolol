@@ -1,7 +1,8 @@
 {
   "name": "language-yolol",
   "version": "0.1.2",
-  "description": "An Atom parser for YOLOL",
+  "description": "An Atom language parser for YOLOL",
+  "main": "lib/main.js",
   "author": "cooliojazz",
   "repository": "https://github.com/cooliojazz/atom-language-yolol",
   "license": "ISC",
@@ -11,5 +12,12 @@
   "engines": {
     "atom": "*",
     "node": "*"
+  },
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeIndie"
+      }
+    }
   }
 }

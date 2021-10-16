@@ -1,6 +1,6 @@
 {
   "name": "language-yolol",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An Atom language parser for YOLOL",
   "main": "lib/main.js",
   "author": "cooliojazz",

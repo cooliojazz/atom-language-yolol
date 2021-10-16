@@ -5,6 +5,8 @@ parser: 'tree-sitter-yolol'
 fileTypes: [
   'yolol'
 ]
+comments:
+  start: '// '
 scopes:
   'program': 'source.yolol'
 
@@ -67,3 +69,4 @@ scopes:
 
   'number': 'constant.numeric'
   'string': 'string.quoted'
+  'comment': 'comment'
